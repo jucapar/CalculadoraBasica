@@ -1,0 +1,11 @@
+#visor{
+	text-align:right;
+}
+
+#container{
+	width:15%;
+	background-color:#e0ecff;
+	border-style: solid;
+	border-color: grey;
+	padding-left:20px;
+}
