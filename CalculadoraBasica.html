@@ -14,40 +14,40 @@
 		<form id="calculadoras">
 			
 			<p>
-				<input type="text" id="visor" value="0" id="visor" readonly/>
-				<input type="button" value="C" id="borra" />
+				<input type="text" id="visor" value="0" id="visor" name="visor"readonly/>
+				<input type="button" value="C" onClick="borrarVisor();" id="borra" name="borra" />
 			</p>
 			
 			<p>
-				<input type="button" value="7" id="siete" />
-				<input type="button" value="8" id="ocho" />
-				<input type="button" value="9" id="nueve" />
-				<input type="button" value="/" id="dividir" />
+				<input type="button" value="7" onClick="mostrarVisor(siete.value);" id="siete" name="siete"/>
+				<input type="button" value="8" onClick="mostrarVisor(ocho.value);" id="ocho" name="ocho"/>
+				<input type="button" value="9" onClick="mostrarVisor(nueve.value);" id="nueve" name="nueve"/>
+				<input type="button" value="/"  id="dividir" />
 				
 			</p>
 			
 			<p>
-				<input type="button" value="4" id="cuatro" />
-				<input type="button" value="5" id="cinco" />
-				<input type="button" value="6" id="seis" />
-				<input type="button" value="x" id="multiplicar" />
+				<input type="button" value="4" onClick="mostrarVisor(cuatro.value);"  id="cuatro" name="cuatro" />
+				<input type="button" value="5" onClick="mostrarVisor(cinco.value);" id="cinco" name="cinco" />
+				<input type="button" value="6" onClick="mostrarVisor(seis.value);" id="seis" name="seis"/>
+				<input type="button" value="x" id="multiplicar" name="multiplicar"/>
 				
 			</p>
 			
 			
 			<p>
-				<input type="button" value="1" id="uno" />
-				<input type="button" value="2" id="dos" />
-				<input type="button" value="3" id="tres" />
-				<input type="button" value="-" id="restar" />
+				<input type="button" value="1" onClick="mostrarVisor(uno.value);" id="uno" name="uno" />
+				<input type="button" value="2" onClick="mostrarVisor(dos.value);" id="dos" name="dos" />
+				<input type="button" value="3" onClick="mostrarVisor(tres.value);" id="tres" name="tres" />
+				<input type="button" value="-" id="restar" name="restar"/>
 				
 			</p>
 			
 			<p>
 				
-				<input type="button" value="." id="punto" />
-				<input type="button" value="0" id="cero" />
-				<input type="button" value="=" id="igual" />
+				<input type="button" value="." id="punto" name="punto" />
+				<input type="button" value="0" id="cero"  name="cero"/>
+				<input type="button" value="=" id="igual" name="igual"/>
 				<input type="button" value="+" id="sumar" />
 			</p>
 			
